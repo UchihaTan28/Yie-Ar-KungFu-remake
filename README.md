@@ -5,9 +5,9 @@ The arcade classic Yie Ar Kung-Fu's remake created in C++ using raylib, original
 ## Controls
 
 * Move left = Left directional key
-* Move right = right directional key
-* Jump = up directional key
-* Crouch = down directional key
+* Move right = Right directional key
+* Jump = Up directional key
+* Crouch = Down directional key
 * Kick = S letter key
 * Punch = A letter key
 * Quit = Escape key
