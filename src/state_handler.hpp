@@ -78,7 +78,7 @@ constexpr int EnemyRunBoundary        = 30;  ///< how close to screen edge befor
 constexpr int EnemyRetreatDistance    = 10;  ///< how far to run back before chasing again
 
 //------------------------------------------------------------------------------
-// State‐machine “move” states
+// State‐machine "move" states
 //------------------------------------------------------------------------------
 enum class MoveState : int {
     FollowPlayer         = 0,  ///< chase the hero
@@ -122,7 +122,7 @@ enum class EnemyEndSequence : int {
 class Game;
 
 //------------------------------------------------------------------------------
-// Base “state” class: handles common render/tick/input framework
+// Base "state" class: handles common render/tick/input framework
 //------------------------------------------------------------------------------
 class State: public Timer
 {
@@ -198,7 +198,7 @@ class IntroState : public State {
 };
 
 //------------------------------------------------------------------------------
-// “Get ready” preview before gameplay
+// "Get ready" preview before gameplay
 //------------------------------------------------------------------------------
 class PreviewState: public State 
 {
@@ -330,7 +330,7 @@ const vector<string> enemySprites = {
     "kick", "punch", "default", "defeated", "hit"
 };
 
-// collision boxes for each enemy’s body (idle / walk / run, etc.)
+// collision boxes for each enemy's body (idle / walk / run, etc.)
 const vector<CollisionInfo> enemyBodyHitBoxes = {
     {5, 8, 8, 19, 31, 10},
     {6, 3, 3, 4, 31, 11},
